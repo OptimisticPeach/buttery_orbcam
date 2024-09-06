@@ -1,0 +1,9 @@
+[package]
+name = "buttery_orbcam"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bevy = { git = "https://github.com/bevyengine/bevy" }
+# same as buttery 0.3.0 except it uses glam 0.28 since the bevy branch we're using has that version of glam
+buttery = { path = "../buttery" }
