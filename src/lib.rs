@@ -63,7 +63,7 @@ impl Default for OrbitCamConfig {
 }
 
 fn update_orbitcams(mut query: Query<(&mut Transform, &mut OrbitCam)>, delta: Res<Time>) {
-    let delta = delta.delta_seconds();
+    let delta = delta.delta_secs();
 
     for (mut transform, mut orbcam) in query.iter_mut() {
         let new_transform = orbcam.drive(delta);
