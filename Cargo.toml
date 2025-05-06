@@ -4,6 +4,6 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-bevy = "0.15.0"
+bevy = "0.16.0"
 # same as buttery 0.3.0 except it uses glam 0.28 since the bevy branch we're using has that version of glam
 buttery = "0.3.0"
